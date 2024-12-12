@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #000; /* Fundo preto */
     color: #ffffff; /* Texto branco para contraste */
@@ -20,4 +21,28 @@ body {
 
 footer {
     background-color: #111; /* Fundo do rodapé */
+=======
+body {
+    background-color: #000; /* Fundo preto */
+    color: #ffffff; /* Texto branco para contraste */
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #222; /* Fundo das cartas mais claro que o fundo geral */
+}
+
+.card-title {
+    color: #ffd700; /* Cor dourada para os títulos dos jogos */
+}
+
+.card-img-top {
+    width: 100%; /* Faz a imagem ocupar toda a largura da carta */
+    height: 200px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Corta a imagem se necessário para manter as proporções */
+}
+
+footer {
+    background-color: #111; /* Fundo do rodapé */
+>>>>>>> c94924f80550a30cd9116d9617c4fc84a9b30819
 }
