@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos de Games</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Mundo dos Jogos</h1>
+        <h2>Explore uma variedade de jogos emocionantes!</h2>
+
+    </header>
+
+    <nav class="d-flex flex-wrap align-items-center">
+        <a href="#" class="nav-link px-2">Jogos</a>
+        <a href="#" class="nav-link px-2">Consoles</a>
+        <a href="#" class="nav-link px-2">Lançamentos</a>
+        <a href="#" class="nav-link px-2">Contatos</a>
+      </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center">Nossos Jogos</h2>
+        <div class="row">
+            <!-- Jogo de Ação -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./imagens/supermariorpg.jpg" class="card-img-top" alt="Jogo de Ação">
+                    <div class="card-body">
+                        <h5 class="card-title">Super Mario</h5>
+                        <p class="card-text">Um clássico dos jogos de plataforma.</p>
+                        <button class="btn btn-primary" onclick="showAlert('Super Mario')">Jogar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Jogo de Aventura -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./imagens/2x1_Hub_TheLegendOfZelda_ToTK.jpg" class="card-img-top" alt="Jogo de Aventura">
+                    <div class="card-body">
+                        <h5 class="card-title">The Legend of Zelda</h5>
+                        <p class="card-text">Uma aventura épica em um mundo fantástico.</p>
+                        <button class="btn btn-primary" onclick="showAlert('The Legend of Zelda')">Jogar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Jogo de Estratégia -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./imagens/age-of-empires-capa.jpg" class="card-img-top" alt="Jogo de Estratégia">
+                    <div class="card-body">
+                        <h5 class="card-title">Age of Empires</h5>
+                        <p class="card-text">Construa seu império e conquiste seus oponentes.</p>
+                        <button class="btn btn-primary" onclick="showAlert('Age of Empires')">Jogar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Jogo de RPG -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./imagens/final_fantasy.jpg" class="card-img-top" alt="Jogo de RPG">
+                    <div class="card-body">
+                        <h5 class="card-title">Final Fantasy</h5>
+                        <p class="card-text">Um dos RPGs mais icônicos de todos os tempos.</p>
+                        <button class="btn btn-primary" onclick="showAlert('Final Fantasy')">Jogar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Jogo de Puzzle -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./imagens/tetris.jpg" class="card-img-top" alt="Jogo de Puzzle">
+                    <div class="card-body">
+                        <h5 class="card-title">Tetris</h5>
+                        <p class="card-text">Um clássico dos jogos de quebra-cabeça.</p>
+                        <button class="btn btn-primary" onclick="showAlert('Tetris')">Jogar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Jogo de Simulação -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./imagens/the sims.png" class="card-img-top" alt="Jogo de Simulação">
+                    <div class="card-body">
+                        <h5 class="card-title">The Sims</h5>
+                        <p class="card-text">Crie e controle pessoas em um mundo virtual.</p>
+                        <button class="btn btn-primary" onclick="showAlert('The Sims')">Jogar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Jogo de Esporte -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./imagens/fifa.png" class="card-img-top" alt="Jogo de Esporte">
+                    <div class="card-body">
+                        <h5 class="card-title">FIFA</h5>
+                        <p class="card-text">O melhor jogo de futebol do mundo.</p>
+                        <button class="btn btn-primary" onclick="showAlert('FIFA')">Jogar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Jogo de Cartas -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./imagens/hearthstone.jpg" class="card-img-top" alt="Jogo de Cartas">
+                    <div class="card-body">
+                        <h5 class="card-title">Hearthstone</h5>
+                        <p class="card-text">Um jogo de cartas estratégico baseado em turnos.</p>
+                        <button class="btn btn-primary" onclick="showAlert('Hearthstone')">Jogar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Jogo Multijogador -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./imagens/among.jpg" class="card-img-top" alt="Jogo Multijogador">
+                    <div class="card-body">
+                        <h5 class="card-title">Among Us</h5>
+                        <p class="card-text">Um jogo de dedução social em que você deve descobrir o impostor.</p>
+                        <button class="btn btn-primary" onclick="showAlert('Among Us')">Jogar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Jogos de Games. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
