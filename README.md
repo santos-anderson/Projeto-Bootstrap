@@ -1,9 +1,4 @@
 
-# Projeto-Bootstrap
-
-Entrega de Projeto Booststrap
-=======
-# Projeto-Bootstrap
 <<<<<<< HEAD
 
 Entrega de Projeto Booststrap
